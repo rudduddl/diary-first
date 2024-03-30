@@ -1,0 +1,12 @@
+@import url(write.css);
+
+#edit {
+  position: absolute;
+  right: 50px;
+  top: 50px; /* 아래쪽 여백을 조정합니다. */
+}
+#delete {
+  position: absolute;
+  right: -7px;
+  top: 50px; /* 아래쪽 여백을 조정합니다. */
+}
