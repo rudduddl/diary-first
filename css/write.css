@@ -7,7 +7,7 @@ input {
   margin-bottom: 20px;
 }
 
-#write-box {
+#content {
   width: 100%; /* 부모 요소의 너비에 맞추기 위해 100%로 지정합니다. */
   height: 500px;
 }
