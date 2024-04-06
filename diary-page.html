@@ -9,9 +9,9 @@
   <body>
     <form>
       <label for="date">날짜</label>
-      <input type="date" id="date" required /><br />
+      <input type="date" id="date" readonly /><br />
       <label for="title">제목</label>
-      <input type="text" id="title" maxlength="10" required /><br />
+      <input type="text" id="title" maxlength="10" readonly /><br />
       <input
         type="submit"
         id="edit"
@@ -24,6 +24,7 @@
         id="content"
         placeholder="이 곳에 일기를 작성하세요!"
         maxlength="1000"
+        readonly
       ></textarea>
     </form>
     <script src="js/diary-page.js"></script>
