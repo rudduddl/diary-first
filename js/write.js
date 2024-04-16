@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const date = document.getElementById("date").value;
     const title = document.getElementById("title").value;
-    const content = document.getElementById("write-box").value;
+    const content = document.getElementById("content").value;
 
     const diaryEntry = {
       date: date,
