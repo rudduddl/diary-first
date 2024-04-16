@@ -15,19 +15,3 @@ document.addEventListener("DOMContentLoaded", function () {
   titleElement.value = title;
   contentElement.value = content;
 });
-
-function goToEditPage() {
-  const date = document.getElementById("date").value;
-  const title = document.getElementById("title").value;
-  const content = document.getElementById("content").value;
-
-  const url =
-    "edit.html?date=" +
-    encodeURIComponent(date) +
-    "&title=" +
-    encodeURIComponent(title) +
-    "&content=" +
-    encodeURIComponent(content);
-  console.log("실행됨");
-  window.open(url, "_blank");
-}
