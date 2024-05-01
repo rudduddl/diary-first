@@ -1,1 +1,7 @@
 @import url("write.css");
+
+#save-button {
+  position: absolute;
+  right: -24px;
+  top: 50px; /* 아래쪽 여백을 조정합니다. */
+}
