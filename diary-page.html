@@ -12,8 +12,13 @@
       <input type="date" id="date" readonly /><br />
       <label for="title">제목</label>
       <input type="text" id="title" maxlength="10" readonly /><br />
-      <input type="submit" id="edit" value="수정" onclick="goToEditPage()" />
-      <input type="submit" id="delete" value="삭제" />
+      <input
+        type="submit"
+        id="edit"
+        value="수정"
+        onclick="goToEditPage()"
+      /><!--submit->button-->
+      <input type="button" id="delete" value="삭제" onclick="deleteDiary()" />
       <textarea
         type="text"
         id="content"
@@ -21,6 +26,7 @@
         maxlength="1000"
         readonly
       ></textarea>
+      <input type="hidden" id="diary-key" />
     </form>
     <script src="js/diary-page.js"></script>
   </body>
